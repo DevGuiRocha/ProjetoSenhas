@@ -51,8 +51,7 @@ async function visualizar(id) {
         if (resposta['erro']) {
             msgAlerta.innerHTML = resposta['msg'];
         } else {
-            msgAlerta.innerHTML = resposta['msg'];
-            listarUsuarios(1);
+            document.getElementById("senhaGerada").innerHTML = resposta['msg'];
         }
     }    
 }

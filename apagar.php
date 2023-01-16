@@ -36,3 +36,5 @@ include_once "conexao.php";
     }
 
     echo json_encode($retorna);
+
+?>
