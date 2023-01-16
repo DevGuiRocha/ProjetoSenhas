@@ -1,0 +1,61 @@
+h2 {
+text-align: center;	
+font-size: 44px;
+}
+
+p {
+text-align: center;	
+}
+
+img{
+	width: 20%;
+}
+
+.img{
+	display: flex;
+	justify-content: center;
+}
+
+.senha {
+    font-size: 130px;
+    margin-top: 35px;
+}
+
+body {
+background-color: #ffcc00;
+font-family: Source Sans Pro Black, arial black, 'calibri light', calibri, arial, sans-serif;
+}
+
+button{
+  font-size:15px;
+  font-family:Arial;
+  width:140px;
+  height:50px;
+  border-width:1px;
+  color:#fff;
+  border-color:rgba(116, 194, 221, 1);
+  font-weight:bold;
+  border-top-left-radius:8px;
+  border-top-right-radius:8px;
+  border-bottom-left-radius:8px;
+  border-bottom-right-radius:8px;
+  box-shadow: 0px 10px 14px -7px rgba(17, 84, 109, 1);
+  text-shadow: 0px 1px 0px rgba(16, 110, 143, 1);
+  background:linear-gradient(rgba(32, 172, 223, 1), rgba(25, 149, 194, 1));
+}
+
+div.body-content{
+  /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
+  margin-bottom: 40px;
+}
+
+footer.fixar-rodape{
+	top: 700px;
+    left: 0px;
+    height: 40px;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
