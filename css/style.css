@@ -1,10 +1,10 @@
 h2 {
-text-align: center;	
-font-size: 44px;
+  text-align: center;	
+  font-size: 44px;
 }
 
 p {
-text-align: center;	
+  text-align: center;	
 }
 
 img{
@@ -17,13 +17,13 @@ img{
 }
 
 .senha {
-    font-size: 130px;
-    margin-top: 35px;
+  font-size: 130px;
+  margin-top: 35px;
 }
 
 body {
-background-color: #ffcc00;
-font-family: Source Sans Pro Black, arial black, 'calibri light', calibri, arial, sans-serif;
+  background-color: #ffcc00;
+  font-family: Source Sans Pro Black, arial black, 'calibri light', calibri, arial, sans-serif;
 }
 
 button{
@@ -51,11 +51,11 @@ div.body-content{
 
 footer.fixar-rodape{
 	top: 700px;
-    left: 0px;
-    height: 40px;
-    position: absolute;
-    width: 100%;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-evenly;
+  left: 0px;
+  height: 40px;
+  position: absolute;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-evenly;
 }
