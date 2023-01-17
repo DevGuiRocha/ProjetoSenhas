@@ -35,7 +35,6 @@ async function apagarUsuarioDados(id) {
             msgAlerta.innerHTML = resposta['msg'];
         } else {
             msgAlerta.innerHTML = resposta['msg'];
-            listarUsuarios(1);
         }
     }    
 }
