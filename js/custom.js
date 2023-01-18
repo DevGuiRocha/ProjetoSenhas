@@ -34,23 +34,20 @@ async function apagarUsuarioDados(id) {
         if (resposta['erro']) {
             msgAlerta.innerHTML = resposta['msg'];
         } else {
-            msgAlerta.innerHTML = resposta['msg'];
+            confirm("Senhas reiniciadas com sucesso!!")
+            document.getElementById("senhaGerada").innerHTML = "";
         }
     }    
 }
 
 async function visualizar(id) {
 
-    var confirmar = confirm("Tem certeza que deseja reiniciar a contagem das senhas?");
+    const dados = await fetch('visualizar.php');
 
-    if(confirmar == true){
-        const dados = await fetch('visualizar.php');
-
-        const resposta = await dados.json();
-        if (resposta['erro']) {
-            msgAlerta.innerHTML = resposta['msg'];
-        } else {
-            document.getElementById("senhaGerada").innerHTML = resposta['msg'];
-        }
+    const resposta = await dados.json();
+    if (resposta['erro']) {
+        msgAlerta.innerHTML = resposta['msg'];
+    } else {
+        document.getElementById("senhaGerada").innerHTML = resposta['msg'];
     }    
 }
